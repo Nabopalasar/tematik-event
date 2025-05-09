@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Лендинг</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- В head -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <style>
+        body {
+            font-family: 'Fira Sans', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="instagram blur">
+        <a href="https://www.instagram.com/tematik_event/" class="instagram__link">
+            <img src="img/social/instagram.png" alt="instagram">
+        </a>
+    </div>
+
+    <nav class="nav">
+        <div class="container nav__container">
+            <a href="#" class="nav__logo">
+                <img src="img/logo.PNG" alt="Logo">
+            </a>
+
+            <button class="nav__burger" id="burger" aria-label="Меню">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="nav__menu" id="navMenu">
+                <a href="#about-us">Про нас</a>
+                <a href="#top-programs">Топ программы</a>
+                <a href="#insertions">Вставки</a>
+                <a href="#bonuses">Бонусы</a>
+                <a href="#gallery">Галерея</a>
+                <a href="#reviews">Отзывы</a>
+                <a href="#contacts">Контакты</a>
+                <div class="social-links nav-social-links">
+                    <a href="https://www.instagram.com/tematik_event/"><img src="img/social/instagram.png" alt=""></a>
+                    <a href="viber://add?number=+380975356256"><img src="img/social/telegram.png" alt=""></a>
+                    <a href="https://t.me/tematik_event"><img src="img/social/viber.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="header__img">
+                    <img src="img/logo.PNG" alt="tematik_event">
+                </div>
+                <div class="header__title">
+                    <h1>
+                        <span class="line">Ласкаво просимо до</span>
+                        <span class="line">найпотужніших веселощів</span>
+                        <span class="line">для ваших дітей</span>
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="about-us" id="about-us">
+        <div class="container">
+            <h2 class="title">Про нас</h2>
+
+            <div class="abuot-us__wrapper">
+                <div class="about-us__decr-block">
+                    <!-- Контент -->
+                    <p class="about-us__description">
+                        <span>Tematik event</span> – це команда, яка знає, як зробити дитяче свято незабутнім! Ми не
+                        просто
+                        організовуємо заходи – ми створюємо справжні історії, де кожна дитина відчуває себе головним
+                        героєм.
+                    </p>
+                    <p class="about-us__coast">
+                        <span>
+                            Програми від 1500грн!
+                        </span>
+                    </p>
+
+                    <div class="about-us-advantages">
+                        <div class="about-us-advantages-item">
+                            <h4>9 РОКІВ ДОСВІДУ В ОРГАНІЗАЦІЇ
+                                ДИТЯЧИХ СВЯТ
+                            </h4>
+                        </div>
+                        <div class="about-us-advantages-item">
+                            <h4>
+                                СИСТЕМА БОНУСІВ ДО ВСІХ СВЯТ
+                            </h4>
+                        </div>
+                        <div class="about-us-advantages-item">
+                            <h4>
+                                НОВИЙ, АВТОРСЬКИЙ ПІДХІД ДО СВЯТА
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-us__list-block">
+                    <h3 class="title">
+                        Що нас відрізняє?
+                    </h3>
+                    <ul class="about-us__list">
+                        <li>
+                            Унікальні авторські програми, яких ви не знайдете більше ніде.
+
+                        </li>
+                        <li>
+                            Досвідчений ведучий та команда професійних аніматорів.
+                        </li>
+                        <li>
+                            Якісний реквізит, видовищні шоу та креативні ідеї.
+                        </li>
+                        <li>
+                            Працюємо в Одесі. Ви готові зробити ваше свято незабутнім?
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="about-us__video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/21m8yL0J2Es?si=Ied1mLEqyb-l4qT3"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="about-us_call-btn">
+                <a href="tel:+380975356256" class="btn">Подзвонити</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="top-programs" id="top-programs">
+        <div class="container">
+            <h2 class="title">ТОП ПРОГРАМ ЯКІ ЗАМОВЛЯЮТЬ НАЙЧАСТІШЕ</h2>
+            <!-- Контент -->
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="swiper-slide__wrapper">
+                            <img src="img/top-programs/top-1.webp" alt="">
+                            <h4 class="title stiper-title">Spider-Man</h4>
+                            <p class="switer-description">
+                                Справжній супергерой прилітає до дітей, щоб влаштувати круті випробування, навчити
+                                трюкам і зробити яскраві фото!
+                                <br>
+                                Сила, спритність, веселощі – як у справжнього героя!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-slide__wrapper">
+                            <img src="img/top-programs/top-2.webp" alt="">
+                            <h4 class="title stiper-title">Детективний квест "Діло зниклого вченого"</h4>
+                            <p class="switer-description">
+                                Юні детективи розслідують таємниче зникнення вченого! На них чекає огляд місця злочину,
+                                зняття відбитків, розшифровка кодів, викриття брехні та небезпечні пастки злочинця.
+                                <br>
+                                Іменинник – головний детектив зі значком ФБР! Разом із друзями він розкриє справу та
+                                врятує науку!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-slide__wrapper">
+                            <img src="img/top-programs/top-3.webp" alt="">
+                            <h4 class="title stiper-title">Містер Біст</h4>
+                            <p class="switer-description">
+                                Веселий челендж-шоу з випробуваннями, конкурсами та крутими призами! Діти змагатимуться
+                                у спритності, кмітливості та зарядяться яскравими емоціями!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-slide__wrapper">
+                            <img src="img/top-programs/top-4.webp" alt="">
+                            <h4 class="title stiper-title">
+                                Хоррор-квест <br>
+                                "Таємниця покинутого замку".
+                            </h4>
+                            <p class="switer-description">
+                                Захоплюючі пригоди з головним персонажем Стівом. Павуки, пастки та масса адреналіну. але
+                                все в рамках безпеки.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-slide__wrapper">
+                            <img src="img/top-programs/top-5.jpg" alt="">
+                            <h4 class="title stiper-title">Наукове шоу</h4>
+                            <p class="switer-description">
+                                Захопливі експерименти, вибухові досліди та справжня магія науки! Діти спостерігають,
+                                дивуються й навіть самі стають маленькими дослідниками!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Навигация -->
+        <div class="top-program swiper-controls">
+            <div class="top-program swiper-button-prev"></div>
+            <div class="top-program swiper-pagination"></div>
+            <div class="top-program swiper-button-next"></div>
+        </div>
+    </section>
+
+    <section id="insertions">
+        <div class="container">
+            <h2 class="title">Вставки</h2>
+            <h4 class="subtitle">
+                Ідеальний спосіб зробити ваше свято ще яскравішим! Вони додають інтригу, несподівані емоції та
+                урізноманітнюють програму. Це може бути шоу-програма, конкурсний блок, інтерактивний персонаж або навіть
+                міні-квест!
+            </h4>
+            <h4 class="subtitle">
+                Обов’язково замовляйте вставки – це чудове доповнення, яке зробить ваш захід динамічним, веселим і
+                незабутнім!
+            </h4>
+            <!-- Контент -->
+            <div class="insertions-grid">
+
+                <div class="insertion__item">
+                    <img src="img/insertions/insertions-1.webp" alt="Вставка 1">
+                    <div class="insertion_descr-block">
+                        <div class="blur">
+                            <h3 class="title insertion__title">Neon Party</h3>
+                            <p class="insertion__descr">
+                                Яскраві неонові стрічки світяться у темряві, створюючи неймовірні візерунки в повітрі.
+                                Динамічна музика, спецефекти та захоплюючий танець стрічок перетворять будь-яке свято на
+                                справжнє світлове шоу!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="insertion__item">
+                    <img src="img/insertions/insertions-2.webp" alt="Вставка 2">
+                    <div class="insertion_descr-block">
+                        <div class="blur">
+                            <h3 class="title insertion__title">Паралонове шоу</h3>
+                            <p class="insertion__descr">
+                                М'які кубики з поролону перетворюють майданчик на справжню арену для стрибків, битв і
+                                крутих трюків. Діти будують вежі, пірнають у море кубиків і отримують максимум
+                                позитивних емоцій!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="insertion__item">
+                    <img src="img/insertions/insertions-3.webp" alt="Вставка 3">
+                    <div class="insertion_descr-block">
+                        <div class="blur">
+                            <h3 class="title insertion__title">Наукова вставка</h3>
+                            <p class="insertion__descr">
+                                Дивовижні експерименти, димові вибухи, світлові реакції та левітація предметів – усе
+                                це захоплює дітей і робить їх свято незабутнім. Учасники не просто спостерігають, а й
+                                самі стають дослідниками, відкриваючи секрети науки через гру!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="insertion__item">
+                    <img src="img/insertions/insertions-4.webp" alt="Вставка 4">
+                    <div class="insertion_descr-block">
+                        <div class="blur">
+                            <h3 class="title insertion__title">Паперове шоу</h3>
+                            <p class="insertion__descr">
+                                Тонни легкого паперу злітають у повітря, створюючи ефект неймовірного святкового вибуху.
+                                Діти стрибають, кидаються паперовими хвилями, танцюють під музику та відчувають справжню
+                                атмосферу безмежного веселощів!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="insertion__item">
+                    <img src="img/insertions/insertions-5.webp" alt="Вставка 5">
+                    <div class="insertion_descr-block">
+                        <div class="blur">
+                            <h3 class="title insertion__title">Бармен шоу</h3>
+                            <p class="insertion__descr">
+                                Головний герой свята – іменинник – сам стане барменом та приготує смачні коктейлі для
+                                своїх гостей! Це весело, інтерактивно та незабутньо!
+                                <br>
+                                Фокуси, смак та яскраві емоції в кожному ковтку!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="insertion__item">
+                    <img src="img/insertions/insertions-6.webp" alt="Вставка 6">
+                    <div class="insertion_descr-block">
+                        <div class="blur">
+                            <h3 class="title insertion__title">Книга пам'яті</h3>
+                            <p class="insertion__descr">
+                                Ми миттєво друкуємо фото з свята та вклеюємо їх прямо в книгу. Гості залишають
+                                побажання, а іменинник отримує унікальний альбом з пам’ятними моментами!
+                                <br>
+                                Свято, яке можна тримати в руках!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="insertion__item">
+                    <img src="img/insertions/insertions-7.webp" alt="Вставка 7">
+                    <div class="insertion_descr-block">
+                        <div class="blur">
+                            <h3 class="title insertion__title">Мильні бульбашки</h3>
+                            <p class="insertion__descr">
+                                Великі бульбашки літають, сяють на світлі, а діти можуть пірнати у їхні бульбашкові
+                                хмари. Яскраве, веселе та захоплююче шоу для будь-якого свята!
+                                <br>
+                                Мильні бульбашки – чудо, яке захоплює всіх!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="insertion__item">
+                    <img src="img/insertions/insertions-8.webp" alt="Вставка 8">
+                    <div class="insertion_descr-block">
+                        <div class="blur">
+                            <h3 class="title insertion__title">Just Dance</h3>
+                            <p class="insertion__descr">
+                                Це танцювальне шоу, яке поєднує стильні рухи джаз-денсу з візуальними ефектами на
+                                великому екрані!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="insertion__item">
+                    <img src="img/insertions/insertions-9.webp" alt="Вставка 9">
+                    <div class="insertion_descr-block">
+                        <div class="blur">
+                            <h3 class="title insertion__title">Графіті шоу</h3>
+                            <p class="insertion__descr">
+                                Унікальне поєднання мистецтва і креативу! Художники створюють яскраві графіті прямо на
+                                очах у гостей, перетворюючи порожню стіну на справжній витвір мистецтва.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bonuses" id="bonuses">
+        <div class="container">
+            <h2 class="title">
+                Бонуси від
+                <span>"Tematik event"</span>
+            </h2>
+            <h3 class="subtitle">
+                Ми любимо радувати наших клієнтів, тому підготували для вас приємні бонуси!
+            </h3>
+            <!-- Контент -->
+            <div class="bonuses__content">
+
+                <div class="bonuses__bonus blur">
+                    <h4 class="title">
+                        5% знижка
+                    </h4>
+                    <p>
+                        Всі, хто підписаний на наш <a href="https://www.instagram.com/tematik_event/">Instagram</a>. Святкувати з нами не тільки весело, а й
+                        вигідно!
+                    </p>
+                </div>
+
+                <div class="bonuses__bonus blur">
+                    <h4 class="title">
+                        Генератор мильних бульбашок
+                    </h4>
+                    <p>
+                        Чарівне доповнення до вашого свята! Безліч блискучих бульбашок у подарунок при замовленні
+                        програми від 2 годин.
+                    </p>
+                </div>
+
+                <div class="bonuses__bonus blur">
+                    <h4 class="title">
+                        Шарики-фігурки
+                    </h4>
+                    <p>
+                        Наші аніматори подарують дітям яскраві повітряні фігурки, які вони зможуть забрати з собою на
+                        згадку.
+                    </p>
+                </div>
+
+                <div class="bonuses__bonus blur">
+                    <h4 class="title">
+                        Екран + Just Dance
+                    </h4>
+                    <p>
+                        Великий екран стане чудовим доповненням до свята, створюючи ефект занурення в атмосферу гри та
+                        розваг. А разом із ним ви отримаєте Just Dance – запальну танцювальну гру, яка об’єднає гостей у
+                        веселих батлах і подарує море позитивних емоцій!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <div class="container">
+            <h2 class="title">Фотограф на вашому святі – це 100% вау!</h2>
+            <h3 class="subtitle">Найяскравіші моменти – в об'єктиві професіонала!</h3>
+
+            <!-- Основной слайдер -->
+            <div class="swiper main-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="img/galery/galery-1.jpg" alt="galery-photo"></div>
+                    <div class="swiper-slide"><img src="img/galery/galery-2.jpg" alt="galery-photo"></div>
+                    <div class="swiper-slide"><img src="img/galery/galery-3.jpg" alt="galery-photo"></div>
+                    <div class="swiper-slide"><img src="img/galery/galery-4.jpg" alt="galery-photo"></div>
+                    <div class="swiper-slide"><img src="img/galery/galery-5.jpg" alt="galery-photo"></div>
+                    <div class="swiper-slide"><img src="img/galery/galery-6.jpg" alt="galery-photo"></div>
+                    <div class="swiper-slide"><img src="img/galery/galery-7.jpg" alt="galery-photo"></div>
+                    <div class="swiper-slide"><img src="img/galery/galery-8.jpg" alt="galery-photo"></div>
+                    <div class="swiper-slide"><img src="img/galery/galery-9.jpg" alt="galery-photo"></div>
+                    <div class="swiper-slide"><img src="img/galery/galery-10.jpg" alt="galery-photo"></div>
+                    <div class="swiper-slide"><img src="img/galery/galery-11.jpg" alt="galery-photo"></div>
+                    <div class="swiper-slide"><img src="img/galery/galery-12.jpg" alt="galery-photo"></div>
+                    <div class="swiper-slide"><img src="img/galery/galery-13.jpg" alt="galery-photo"></div>
+                    <div class="swiper-slide"><img src="img/galery/galery-14.jpg" alt="galery-photo"></div>
+                    <div class="swiper-slide"><img src="img/galery/galery-15.jpg" alt="galery-photo"></div>
+                    <div class="swiper-slide"><img src="img/galery/galery-16.jpg" alt="galery-photo"></div>
+                    <div class="swiper-slide"><img src="img/galery/galery-17.jpg" alt="galery-photo"></div>
+                    <div class="swiper-slide"><img src="img/galery/galery-18.jpg" alt="galery-photo"></div>
+                    <div class="swiper-slide"><img src="img/galery/galery-19.jpg" alt="galery-photo"></div>
+                    <div class="swiper-slide"><img src="img/galery/galery-20.jpg" alt="galery-photo"></div>
+                    <div class="swiper-slide"><img src="img/galery/gallery-21.jpg" alt="galery-photo"></div>
+       
+                </div>
+                <div class="swiper-prev"></div>
+                <div class="swiper-next"></div>
+            </div>
+
+            <!-- Миниатюры -->
+            <div class="swiper thumbs-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="img/galery/galery-1.jpg" alt="galery-photo"></div>
+                    <div class="swiper-slide"><img src="img/galery/galery-2.jpg" alt="galery-photo"></div>
+                    <div class="swiper-slide"><img src="img/galery/galery-3.jpg" alt="galery-photo"></div>
+                    <div class="swiper-slide"><img src="img/galery/galery-4.jpg" alt="galery-photo"></div>
+                    <div class="swiper-slide"><img src="img/galery/galery-5.jpg" alt="galery-photo"></div>
+                    <div class="swiper-slide"><img src="img/galery/galery-6.jpg" alt="galery-photo"></div>
+                    <div class="swiper-slide"><img src="img/galery/galery-7.jpg" alt="galery-photo"></div>
+                    <div class="swiper-slide"><img src="img/galery/galery-8.jpg" alt="galery-photo"></div>
+                    <div class="swiper-slide"><img src="img/galery/galery-9.jpg" alt="galery-photo"></div>
+                    <div class="swiper-slide"><img src="img/galery/galery-10.jpg" alt="galery-photo"></div>
+                    <div class="swiper-slide"><img src="img/galery/galery-11.jpg" alt="galery-photo"></div>
+                    <div class="swiper-slide"><img src="img/galery/galery-12.jpg" alt="galery-photo"></div>
+                    <div class="swiper-slide"><img src="img/galery/galery-13.jpg" alt="galery-photo"></div>
+                    <div class="swiper-slide"><img src="img/galery/galery-14.jpg" alt="galery-photo"></div>
+                    <div class="swiper-slide"><img src="img/galery/galery-15.jpg" alt="galery-photo"></div>
+                    <div class="swiper-slide"><img src="img/galery/galery-16.jpg" alt="galery-photo"></div>
+                    <div class="swiper-slide"><img src="img/galery/galery-17.jpg" alt="galery-photo"></div>
+                    <div class="swiper-slide"><img src="img/galery/galery-18.jpg" alt="galery-photo"></div>
+                    <div class="swiper-slide"><img src="img/galery/galery-19.jpg" alt="galery-photo"></div>
+                    <div class="swiper-slide"><img src="img/galery/galery-20.jpg" alt="galery-photo"></div>
+                    <div class="swiper-slide"><img src="img/galery/gallery-21.jpg" alt="galery-photo"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <h2 class="title">
+                Відгуки
+            </h2>
+            <h3 class="subtitle reviews__subtitle">
+                Усі наші відгуки можна подивитись тут:
+                <a href="https://www.instagram.com/tematik_event/">
+                    <img src="img/social/instagram.png" alt="instagram">
+                </a>
+            </h3>
+            <!-- Контент -->
+            <div class="swiper reviews-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide review-slide blur">
+                        <img src="img/reviews/reviev-1.png" alt="Клієнт 1" class="review-img">
+                    </div>
+                    <div class="swiper-slide review-slide blur">
+                        <img src="img/reviews/reviev-2.png" alt="Клієнт 1" class="review-img">
+                    </div>
+                    <div class="swiper-slide review-slide blur">
+                        <img src="img/reviews/reviev-3.jpg" alt="Клієнт 1" class="review-img">
+                    </div>
+                    <div class="swiper-slide review-slide blur">
+                        <img src="img/reviews/reviev-4.jpg" alt="Клієнт 1" class="review-img">
+                    </div>
+                    <div class="swiper-slide review-slide blur">
+                        <img src="img/reviews/reviev-5.jpg" alt="Клієнт 1" class="review-img">
+                    </div>
+                    <div class="swiper-slide review-slide blur">
+                        <img src="img/reviews/reviev-6.jpg" alt="Клієнт 1" class="review-img">
+                    </div>
+       
+                </div>
+
+
+            </div>
+            <!-- Навигация -->
+            <div class="reviews swiper-controls">
+                <div class="reviews swiper-button-prev"></div>
+                <div class="reviews swiper-pagination"></div>
+                <div class="reviews swiper-button-next"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts">
+        <div class="container">
+            <h2 class="title">Контакты</h2>
+            <!-- Контактная форма или информация -->
+            <div class="contacts__content">
+                <div class="contacts__information blur">
+                    <h3 class="contacts__title" style="display: flex; align-items: center; justify-content: center;">
+                        <span>
+                            <img src="img/logo.PNG" alt="" style="width: 2em; height: 2em; margin-right: 10px;">
+                        </span>
+                        Tematik <br>
+                        Event
+                    </h3>
+                    <ul>
+                        <li>
+                            <a href="https://www.instagram.com/tematik_event/"> <img src="img/social/instagram.png" alt="instagram"><span>Наш
+                                    Instagram</span></a>
+                        </li>
+                        <li>
+                            <a href="tel:+380975356256"> <img src="img/social/telephone.png" alt="telephone"><span>Подзвонити</span></a>
+                        </li>
+                        <li>
+                            <a href="viber://chat?number=%2B380975356256"> <img src="img/social/viber.png" alt="viber"><span>Наш Viber</span></a>
+                        </li>
+                        <li>
+                            <a href="https://t.me/tematik_event"> <img src="img/social/telegram.png" alt="telegram"><span>Telegram</span></a>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="contacts__map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2747.2212544833947!2d30.72599057633085!3d46.483931164826174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c6319419ca14e7%3A0x1c5027edf998d3a6!2sPavla%20Zelenoho%20St%2C%2040%2C%20Odesa%2C%20Odes&#39;ka%20oblast%2C%2065000!5e0!3m2!1sen!2sua!4v1746556559151!5m2!1sen!2sua"
+                        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Все права защищены</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
