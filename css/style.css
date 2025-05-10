@@ -48,6 +48,7 @@ html {
   }
 
 body {
+    font-family: 'Fira Sans', sans-serif;
     margin: 0;
     background-color: var(--body-bg);
     font-size: 12px;
@@ -74,6 +75,27 @@ li {
 
 section {
     padding: 61px 0 60px 0;
+}
+
+footer {
+  background-color: #494949;
+  padding: 10px 0;
+  text-align: center;
+}
+
+footer p {
+  color: #eee;
+}
+
+footer a {
+  color: #f5e5e5;
+  cursor: pointer;
+
+}
+
+footer a:hover {
+  color: var(--secondary-hover);
+  cursor: pointer;
 }
 
 .blur {
