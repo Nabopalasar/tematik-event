@@ -857,6 +857,74 @@ border-color: var(--primary-color);
   box-shadow: var(--box-shadow);
 }
 
+.photograph {
+  margin-top: 30px;
+}
+
+.photograph__section {
+  display: flex;
+  gap: 10px;
+
+}
+
+.photograph__section img {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+}
+
+.photograph__content {
+  width: 100%;
+}
+
+.photograph__titles {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  gap: 10px;
+}
+
+.photograph__title {
+  font-size: 1.5em;
+}
+
+.photograph__descr {
+  font-size: 1.4em;
+  color: var(--subtitle-color);
+}
+
+.photograph__line {
+  height: 1px;
+  border-bottom: 1px solid var(--primary-color);
+  width: 100%;
+}
+
+.photograph__social {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.photograph__social a {
+  /* padding: 0; */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.photograph__social a:hover {
+  color: var(--secondary-hover);
+}
+
+.photograph__social img {
+  height: 1.2em;
+  width: 1.2em;
+}
+
 
 @media (min-width: 375px) {
     /* Чуть увеличенные стили */
