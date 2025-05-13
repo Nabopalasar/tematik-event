@@ -833,6 +833,7 @@ border-color: var(--primary-color);
   background-size: cover;
   padding: 20px;
   border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
 }
 
 .contacts__content a {
@@ -947,6 +948,89 @@ border-color: var(--primary-color);
   width: 1.2em;
 }
 
+.contacts__form-block {
+  background-image: var(--background-img);
+  background-size: cover;
+  box-shadow: var(--box-shadow);
+  margin-bottom: 30px;
+  padding: 30px;
+}
+
+.contact__form-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2em;
+  background-color: var(--bg-primary);
+  border-radius: 5px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(30px);
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact__form-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.contact__form-field label {
+  color: var(--text-color);
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.contact__form-field input {
+  border: unset;
+  color: var(--text-color);
+  height: 3em;
+  border-radius: 5px;
+  padding: 0 15px;
+  background-color: var(--body-bg);
+  border: 0px solid #ccc;
+  transition: border-color 0.8s ease;
+  box-shadow: var(--box-shadow);
+}
+
+.contact__form-field input:focus {
+  border: 2px solid var(--primary-hover);
+  outline: none;
+
+}
+
+.contact__form-field textarea {
+  border: unset;
+  color: var(--text-color);
+  border-radius: 5px;
+  padding: 15px;
+  background-color: var(--body-bg);
+  resize: none;
+  border: 2px solid #fff;
+  transition: border-color 0.8s ease;
+  box-shadow: var(--box-shadow);
+}
+
+.contact__form-field textarea:focus {
+  border: 2px solid var(--primary-hover);
+  outline: none;
+}
+
+.form-btn {
+  display: block;
+  color: var(--primary-color);
+  background-color: unset;
+}
+
+.form-message {
+  display: none;
+  margin-top: 10px;
+  font-weight: bold;
+}
 
 @media (min-width: 375px) {
     /* Чуть увеличенные стили */
