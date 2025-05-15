@@ -33,8 +33,8 @@ phoneInput.addEventListener("input", function (e) {
 document.getElementById("contactForm").addEventListener("submit", function (e) {
   e.preventDefault();
 
-  const token = '8076178360:AAEMNOLDYUjLEtvnE3SjEbEvXzlNzPbnf1g';
-  const chat_id = '386807281';
+  const token = '7963699156:AAHlJaBJJMmpaXzsU2KRzHXo-UlpSupRArQ';
+  const chat_id = '547944685';
 
   const form = e.target;
   const name = form.name.value.trim();
@@ -59,17 +59,17 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
   .then(res => {
     if (res.ok) {
       form.reset();
-      formMessage.textContent = "Сообщение отправлено успешно!";
+      formMessage.textContent = "Повідомлення надіслано успішно!";
       formMessage.style.color = "green";
     } else {
-      formMessage.textContent = "Ошибка при отправке сообщения.";
+      formMessage.textContent = "Помилка при надсиланні повідомлення.";
       formMessage.style.color = "red";
     }
     formMessage.style.display = "block";
   })
   .catch(err => {
     console.error("Fetch error:", err);
-    formMessage.textContent = "Ошибка подключения.";
+    formMessage.textContent = "Помилка підключення.";
     formMessage.style.color = "red";
     formMessage.style.display = "block";
   });
