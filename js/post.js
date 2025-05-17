@@ -42,7 +42,7 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
   const phone = form.phone.value.trim();
   const message = form.message.value.trim();
 
-  const text = `New message from portfolio:\n\n` +
+  const text = `New message from tematik-show website:\n\n` +
                `Name: ${name}\n` +
                `Email: ${email}\n` +
                `Phone: ${phone}\n` +

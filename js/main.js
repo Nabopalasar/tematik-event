@@ -153,3 +153,22 @@ document.addEventListener('click', function (e) {
     burger.classList.remove('open');
   }
 });
+
+const contactForm = document.querySelector('.contacts__form-block');
+const contactFormBtn = document.querySelector('.widgets__feedback');
+
+contactFormBtn.addEventListener('click', function(e) {
+  e.preventDefault();
+  contactForm.classList.toggle('contacts__form-block_avtive');
+  navMenu.classList.remove('active');
+  burger.classList.remove('open');
+});
+
+document.addEventListener('click', function (e) {
+  const isClickInsideForm = contactForm.contains(e.target);
+  const isClickOnBtn = contactFormBtn.contains(e.target);
+
+  if (!isClickInsideForm && !isClickOnBtn) {
+    contactForm.classList.remove('contacts__form-block_avtive');
+  }
+});

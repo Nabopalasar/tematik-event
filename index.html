@@ -35,10 +35,17 @@
 
 <body>
 
-    <div class="instagram blur">
-        <a href="https://www.instagram.com/tematik_event/" class="instagram__link" target="_blank">
-            <img src="img/social/instagram.png" alt="instagram">
-        </a>
+    <div class="widgets">
+        <div class="widgets__feedback blur">
+            <a href="https://www.instagram.com/tematik_event/" class="instagram__link" target="_blank">
+                <img src="img/send-data.png" alt="send">
+            </a>
+        </div>
+        <div class="blur">
+            <a href="https://www.instagram.com/tematik_event/" class="instagram__link" target="_blank">
+                <img src="img/social/instagram.png" alt="instagram">
+            </a>
+        </div>
     </div>
 
     <nav class="nav">
@@ -567,35 +574,8 @@
     </section>
 
     <section id="contacts">
-        <div class="container">
-            <!-- Контактная форма или информация -->
-            <div class="contacts__form-block">
-                <h2 class="title">Контакти</h2>
-                <div class="contact__form-container blur">
-                    <form id="contactForm" method="post" class="contact__form">
-                        <h3 class="contacts__form-title">Замовте свое свято</h3>
-
-                        <div class="contact__form-field">
-                            <label for="name" class="contact__form-label">Имя</label>
-                            <input required="" type="text" name="name" id="name" class="contact__form-input" placeholder="Ваше Ім'я">
-                        </div>
-                        <div class="contact__form-field">
-                            <label for="email" class="contact__form-label">Email</label>
-                            <input type="email" name="email" id="email" class="contact__form-input" placeholder="Ваш email">
-                        </div>
-                        <div class="contact__form-field">
-                            <label for="phone" class="contact__form-label">Телефон</label>
-                            <input required="" type="tel" name="phone" id="phone" class="contact__form-input" placeholder="Введите номер">
-                        </div>
-                        <div class="contact__form-field">
-                            <label for="message" class="contact__form-label">Повідомлення</label>
-                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Ваш текст"></textarea>
-                        </div>
-                        <p id="formMessage" class="form-message">Message sent successfully.</p>
-                        <button type="submit" class="btn form-btn">Отправить</button>
-                    </form>
-                </div>
-            </div>
+        <div class="container">            
+            <h2 class="title">Контакти</h2>
             <div class="contacts__content">
                 <div class="contacts__information blur">
                     <h3 class="contacts__title" style="display: flex; align-items: center; justify-content: center;">
@@ -643,6 +623,34 @@
 
         </div>
     </footer>
+
+                <!-- Контактная форма или информация -->
+                <div class="contacts__form-block">
+                    <div class="contact__form-container blur">
+                        <form id="contactForm" method="post" class="contact__form">
+                            <h3 class="contacts__form-title">Замовте свое свято</h3>
+    
+                            <div class="contact__form-field">
+                                <label for="name" class="contact__form-label">Имя</label>
+                                <input required="" type="text" name="name" id="name" class="contact__form-input" placeholder="Ваше Ім'я">
+                            </div>
+                            <div class="contact__form-field">
+                                <label for="email" class="contact__form-label">Email</label>
+                                <input type="email" name="email" id="email" class="contact__form-input" placeholder="Ваш email">
+                            </div>
+                            <div class="contact__form-field">
+                                <label for="phone" class="contact__form-label">Телефон</label>
+                                <input required="" type="tel" name="phone" id="phone" class="contact__form-input" placeholder="Введите номер">
+                            </div>
+                            <div class="contact__form-field">
+                                <label for="message" class="contact__form-label">Повідомлення</label>
+                                <textarea name="message" id="message" cols="30" rows="2" placeholder="Ваш текст"></textarea>
+                            </div>
+                            <p id="formMessage" class="form-message">Message sent successfully.</p>
+                            <button type="submit" class="btn form-btn">Отправить</button>
+                        </form>
+                    </div>
+                </div>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
